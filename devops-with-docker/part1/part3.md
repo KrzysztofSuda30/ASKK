@@ -19,3 +19,7 @@ skrypt
 ![image](https://github.com/user-attachments/assets/d7733853-cfa0-4018-ab8f-d2edda5b18ec)
 
 zadanie 8:
+
+![image](https://github.com/user-attachments/assets/a6b8a434-9c82-4217-8ded-bfe6c724a472)
+
+![image](https://github.com/user-attachments/assets/ea283264-7810-4942-a57b-6211b27ca81f)
