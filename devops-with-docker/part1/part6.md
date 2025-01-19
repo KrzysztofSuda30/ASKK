@@ -19,3 +19,10 @@ Zadanie 13:
 ![image](https://github.com/user-attachments/assets/b31a74c3-1cf8-414a-9076-1c53f69a357a)
 
 ![image](https://github.com/user-attachments/assets/c3d78b9d-ffef-4a5b-bd7e-17203ced8334)
+
+
+zadanie 14:
+
+![image](https://github.com/user-attachments/assets/6a8b808c-e63e-4681-a3c3-c66a7aa01a3d)
+
+![image](https://github.com/user-attachments/assets/ad634281-b4af-4d31-942e-21e32fe3a17c)
