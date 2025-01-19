@@ -1,0 +1,9 @@
+zadanie 11:
+
+![image](https://github.com/user-attachments/assets/c6a6a932-b35b-439c-8d87-6e9eaefc31e9)
+
+![image](https://github.com/user-attachments/assets/9e9cc4a7-5f60-40eb-86e6-f4dee2b3609c)
+
+![image](https://github.com/user-attachments/assets/80d09bcb-a2ee-438d-b2c1-a11099ceea45)
+
+![image](https://github.com/user-attachments/assets/470deaa7-921a-4983-b094-f46835dc5a30)
