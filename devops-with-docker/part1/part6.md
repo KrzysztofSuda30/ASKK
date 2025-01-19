@@ -26,3 +26,11 @@ zadanie 14:
 ![image](https://github.com/user-attachments/assets/6a8b808c-e63e-4681-a3c3-c66a7aa01a3d)
 
 ![image](https://github.com/user-attachments/assets/ad634281-b4af-4d31-942e-21e32fe3a17c)
+
+Zadanie 15:
+
+![image](https://github.com/user-attachments/assets/c010a28b-0a0b-4667-aeee-b7e6c352b644)
+
+![image](https://github.com/user-attachments/assets/86615327-cf52-4fac-acdd-b9a32f561afc)
+
+![image](https://github.com/user-attachments/assets/71b08203-48b3-4b70-a333-fe583c65d1bb)
