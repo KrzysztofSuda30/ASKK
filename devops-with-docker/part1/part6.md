@@ -7,3 +7,9 @@ zadanie 11:
 ![image](https://github.com/user-attachments/assets/80d09bcb-a2ee-438d-b2c1-a11099ceea45)
 
 ![image](https://github.com/user-attachments/assets/470deaa7-921a-4983-b094-f46835dc5a30)
+
+zadanie 12:
+
+![image](https://github.com/user-attachments/assets/ab46305b-9cc5-4d1a-89ff-4b034bfd12f0)
+
+![image](https://github.com/user-attachments/assets/74ae8fe9-3391-4fce-abd5-f2040ee79253)
