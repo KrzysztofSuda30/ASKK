@@ -34,3 +34,11 @@ Zadanie 15:
 ![image](https://github.com/user-attachments/assets/86615327-cf52-4fac-acdd-b9a32f561afc)
 
 ![image](https://github.com/user-attachments/assets/71b08203-48b3-4b70-a333-fe583c65d1bb)
+
+Zadanie 16:
+
+![image](https://github.com/user-attachments/assets/6bac6f55-549e-4ba7-9f89-b40455bc1570)
+
+link:
+
+https://dashboard.render.com/web/srv-cu6j7h52ng1s73bq7is0/deploys/dep-cu6j96lds78s73ajv44g
