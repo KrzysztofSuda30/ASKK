@@ -1,0 +1,29 @@
+name: Release Node.js app
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: krzysztofsuda
+          password: ########
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          push: true
+          tags: krzysztofsuda/node-express-app:latest
+
+      - name: Notify on success
+        run: echo "Docker image pushed successfully to Docker Hub."
