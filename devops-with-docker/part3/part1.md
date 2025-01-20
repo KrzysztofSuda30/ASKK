@@ -30,6 +30,10 @@ Frontend:
 
 Zadanie 8:
 
+Oto frontend z podziałem na etapy:
+
+![image](https://github.com/user-attachments/assets/05a6f22c-8cb6-4722-af0f-f6e3bed10efd)
+
 Zadanie 9:
 
 Zadanie 10:
