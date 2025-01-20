@@ -20,6 +20,14 @@ backend:
 
 Zadanie 7:
 
+Backend:
+
+![image](https://github.com/user-attachments/assets/75ea758b-41c8-47c6-820c-3670e639c984)
+
+Frontend:
+
+![image](https://github.com/user-attachments/assets/745cbb88-1197-4c1a-9a18-3aeffd8ead72)
+
 Zadanie 8:
 
 Zadanie 9:
