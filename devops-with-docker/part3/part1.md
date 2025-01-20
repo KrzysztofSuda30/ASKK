@@ -36,6 +36,10 @@ Oto frontend z podziałem na etapy:
 
 Zadanie 9:
 
+![image](https://github.com/user-attachments/assets/b1316cb9-ae50-42e8-87d6-1e4837e7b200)
+
+![image](https://github.com/user-attachments/assets/e166cac6-3341-4f73-b673-e4021cfc41db)
+
 Zadanie 10:
 
 Zadanie 11:
