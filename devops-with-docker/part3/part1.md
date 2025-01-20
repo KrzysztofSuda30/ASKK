@@ -1,5 +1,9 @@
 Zadanie 1:
 
+![image](https://github.com/user-attachments/assets/fc8ba20d-023e-4ded-a307-5b40854d3abc)
+
+![image](https://github.com/user-attachments/assets/2d833219-3e6d-457d-9b1f-1bdfee8404f3)
+
 Zadanie 2:
 
 Zadanie 3:
