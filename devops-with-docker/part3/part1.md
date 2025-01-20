@@ -8,6 +8,14 @@ Zadanie 4:
 
 Zadanie 5:
 
+Frontend:
+
+![image](https://github.com/user-attachments/assets/5b35a33e-6914-4149-942a-0b8be0c8ab34)
+
+Backend:
+
+![image](https://github.com/user-attachments/assets/a98b30d0-454c-4528-a677-52956a4cc885)
+
 Zadanie 6:
 
 Frontend:
