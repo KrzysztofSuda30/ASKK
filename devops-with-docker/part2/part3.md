@@ -16,4 +16,3 @@ Zadanie 8:
 
 ![image](https://github.com/user-attachments/assets/5bc59752-8893-457c-ac6c-db1814d7e7ea)
 
-Zadanie 9:
