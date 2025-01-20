@@ -38,5 +38,6 @@ Zadanie 11:
 
 obraz wykonany przy pomocy AI:
 
-![image](https://github.com/user-attachments/assets/e7cfc530-daa3-40b2-807c-f3a4fc81431f)
+![image](https://github.com/user-attachments/assets/ad18e9ae-7e3c-4fb3-9d46-62986d321712)
+
 
