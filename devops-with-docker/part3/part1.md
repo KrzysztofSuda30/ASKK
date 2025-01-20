@@ -42,6 +42,14 @@ Zadanie 9:
 
 Zadanie 10:
 
+przed:
+
+![image](https://github.com/user-attachments/assets/72a5f80f-20f4-4a52-8a5a-deada2246409)
+
+po:
+
+![image](https://github.com/user-attachments/assets/38471dc1-fe79-4d13-b82e-1afc88f7158c)
+
 Zadanie 11:
 
 obraz wykonany przy pomocy AI:
