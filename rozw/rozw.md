@@ -120,6 +120,8 @@ docker volume rm zadanie9_pg_data
 
 docker-compose up --build
 
+localhost3000
+
 10 Jaka jest różnica między obrazem i kontenerem? Pokaż przykład budowania obrazu (Dockerfile) i uruchamiania na jego podstawie kontenera.
 
 Obraz (Image): Jest to szablon, z którego tworzony jest kontener. Obraz zawiera wszystkie niezbędne pliki i konfiguracje, które pozwalają na uruchomienie aplikacji lub środowiska. Obraz jest niemutowalny i może być używany do tworzenia wielu kontenerów. Obraz to po prostu zapisany stan systemu plików.
