@@ -3,6 +3,10 @@ Pytania, które mogą się pojawić na zaliczeniu (egzaminie)
 1 Utwórz plik z obrazem Dockerfile, w którym z hosta do kontenera kopiowany będzie folder code (zawiera np. jeden skrypt w języku Python 🐍) i zbuduj go:
 uruchom ww. skrypt wewnątrz kontenera.
 
+docker build -t python-script .
+
+docker run --rm python-script
+
 2 Skopiuj wybrany plik tekstowy z hosta (swojego komputera) do kontenera Dockerowego.
 
 3 Skopiuj wybrany plik tekstowy z kontenera Dockerowego do hosta (swojego komputera).
