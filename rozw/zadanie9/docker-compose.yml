@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  app:
+    build: ./app
+    networks:
+      - zadanie9_network
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: testdb
+    networks:
+      - zadanie9_network
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+networks:
+  zadanie9_network:
+    driver: bridge
+
+volumes:
+  pg_data:
