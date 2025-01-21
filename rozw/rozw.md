@@ -45,6 +45,12 @@ docker run --rm entrypoint
 
 5 Pokaż działanie usługi bazodanowej z wykorzystaniem docker-compose.
 
+docker-compose up -d
+
+docker exec -it postgres_db psql -U user -d my_database
+
+SELECT * FROM users;
+
 6 Pokaż działanie komend ADD i COPY i WORKDIR w wybranym projekcie.
 
 7 Pokaż działanie docker compose w swoim projekcie.
