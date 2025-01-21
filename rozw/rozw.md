@@ -9,6 +9,10 @@ docker run --rm python-script
 
 2 Skopiuj wybrany plik tekstowy z hosta (swojego komputera) do kontenera Dockerowego.
 
+docker build -t text-file-example .
+
+docker run --rm text-file-example
+
 3 Skopiuj wybrany plik tekstowy z kontenera Dockerowego do hosta (swojego komputera).
 
 4 Pokaż działanie komend ENTRYPOINT i CMD w wybranym projekcie.
