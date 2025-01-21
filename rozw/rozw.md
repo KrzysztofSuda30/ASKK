@@ -87,6 +87,22 @@ localhost:5000
 
 8 Omów na podstawie swojej aplikacji komendy docker inspect i docker logs.
 
+Komenda docker logs pozwala na odczytanie logów kontenera. Możesz dzięki niej sprawdzić, co aplikacja wypisuje na standardowe wyjście lub błąd
+
+Komenda docker inspect pozwala na uzyskanie szczegółowych informacji o kontenerze lub obrazie. Wyświetla dane w formacie JSON, takie jak:
+
+Identyfikator kontenera,
+Zmienione środowiskowe,
+Sieć,
+Mapa portów,
+Ścieżki wolumenów.
+
+użycie na działającym projekcie z 7
+
+docker inspect flask_app
+
+docker logs flask_app
+
 9 Czym są sieci w Dockerze? Zaprezentuj przykład na bazie swojego projektu.
 
 10 Jaka jest różnica między obrazem i kontenerem? Pokaż przykład budowania obrazu (Dockerfile) i uruchamiania na jego podstawie kontenera.
