@@ -21,6 +21,20 @@ uruchom ww. skrypt wewnątrz kontenera.
 
 10 Jaka jest różnica między obrazem i kontenerem? Pokaż przykład budowania obrazu (Dockerfile) i uruchamiania na jego podstawie kontenera.
 
+Obraz (Image): Jest to szablon, z którego tworzony jest kontener. Obraz zawiera wszystkie niezbędne pliki i konfiguracje, które pozwalają na uruchomienie aplikacji lub środowiska. Obraz jest niemutowalny i może być używany do tworzenia wielu kontenerów. Obraz to po prostu zapisany stan systemu plików.
+
+Kontener (Container): Jest to uruchomiona instancja obrazu. Kontener to aktywne środowisko, które może działać, przyjmować dane wejściowe, wykonywać aplikacje i przechowywać dane. Kontener jest jednorazowy (choć można go ponownie uruchomić), a jego dane mogą być utracone po jego zatrzymaniu (chyba że używamy wolumenów).
+
+do zademonstrowanie uśyłem aplikacji flask z zad12:
+
+docker build -t myflaskapp .
+
+docker images
+
+docker run -d -p 5000:5000 --name myflaskcontainer myflaskapp
+
+docker ps
+
 11 Pokaż jak "wejść" do wybranego kontenera.
 Utwórz w nim plik tekstowy z dowolnymi danymi. Co zrobić, żeby po zamknięciu kontenera dane z pliku były dostępne po ponownym uruchomieniu kontenera?
 Zademonstruj dowolny sposób.
