@@ -53,6 +53,26 @@ SELECT * FROM users;
 
 6 Pokaż działanie komend ADD i COPY i WORKDIR w wybranym projekcie.
 
+WORKDIR /app:
+
+Ustawia katalog roboczy w kontenerze na /app.
+
+Wszystkie kolejne operacje (COPY, ADD, CMD) będą wykonywane w tym katalogu, chyba że podano pełną ścieżkę.
+
+COPY:
+
+Kopiuje plik lub folder z systemu hosta do obrazu Dockera.
+
+Używane wyłącznie do lokalnych plików.
+
+ADD:
+
+Może być używane jak COPY, ale obsługuje dodatkowe funkcje:
+
+Automatyczne rozpakowywanie archiwów (.zip, itp.).
+
+Pobieranie plików z URL.
+
 docker build -t demo .
 
 docker run --rm demo
