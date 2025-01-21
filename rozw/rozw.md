@@ -25,6 +25,24 @@ docker cp text-file-container:/app/tekst.txt C:\Users\Asus\Desktop\zadania\ASKK\
 
 4 Pokaż działanie komend ENTRYPOINT i CMD w wybranym projekcie.
 
+CMD: Ustawia domyślne polecenie lub argumenty do wykonania. Można je nadpisać w czasie uruchamiania kontenera.
+
+ENTRYPOINT: Ustawia polecenie, które zawsze jest wykonywane, a argumenty można przekazać w czasie uruchamiania kontenera.
+
+dla cmd pliki z zad 2:
+
+docker build -t text-file-example .
+
+docker run --rm text-file-example
+
+docker run --rm text-file-example echo "tak"
+
+dla enrtypoint z zadania4:
+
+docker build -t entrypoint .
+
+docker run --rm entrypoint
+
 5 Pokaż działanie usługi bazodanowej z wykorzystaniem docker-compose.
 
 6 Pokaż działanie komend ADD i COPY i WORKDIR w wybranym projekcie.
