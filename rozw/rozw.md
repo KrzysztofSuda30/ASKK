@@ -105,6 +105,21 @@ docker logs flask_app
 
 9 Czym są sieci w Dockerze? Zaprezentuj przykład na bazie swojego projektu.
 
+Sieci w Dockerze służą do zarządzania komunikacją między kontenerami oraz między kontenerami a światem zewnętrznym. Docker oferuje różne typy sieci, które można dostosować do potrzeb aplikacji:
+
+Bridge (most) - Domyślny typ sieci dla kontenerów. Kontenery podłączone do tej samej sieci bridge mogą się ze sobą komunikować.
+Host - Używa sieci hosta maszyny, co oznacza, że kontener współdzieli adres IP z hostem.
+None - Kontener nie ma dostępu do sieci.
+Custom Network - Użytkownik może stworzyć własną sieć, określając jej konfigurację.
+
+docker-compose up --build
+
+docker-compose down
+
+docker volume rm zadanie9_pg_data
+
+docker-compose up --build
+
 10 Jaka jest różnica między obrazem i kontenerem? Pokaż przykład budowania obrazu (Dockerfile) i uruchamiania na jego podstawie kontenera.
 
 Obraz (Image): Jest to szablon, z którego tworzony jest kontener. Obraz zawiera wszystkie niezbędne pliki i konfiguracje, które pozwalają na uruchomienie aplikacji lub środowiska. Obraz jest niemutowalny i może być używany do tworzenia wielu kontenerów. Obraz to po prostu zapisany stan systemu plików.
