@@ -53,6 +53,10 @@ SELECT * FROM users;
 
 6 Pokaż działanie komend ADD i COPY i WORKDIR w wybranym projekcie.
 
+docker build -t demo .
+
+docker run --rm demo
+
 7 Pokaż działanie docker compose w swoim projekcie.
 
 8 Omów na podstawie swojej aplikacji komendy docker inspect i docker logs.
