@@ -15,6 +15,14 @@ docker run --rm text-file-example
 
 3 Skopiuj wybrany plik tekstowy z kontenera Dockerowego do hosta (swojego komputera).
 
+ze ścieżki do zadania2:
+
+docker build -t text-file-example .
+
+docker run -d --name text-file-container text-file-example
+
+docker cp text-file-container:/app/tekst.txt C:\Users\Asus\Desktop\zadania\ASKK\rozw\zadanie3\kopia.txt
+
 4 Pokaż działanie komend ENTRYPOINT i CMD w wybranym projekcie.
 
 5 Pokaż działanie usługi bazodanowej z wykorzystaniem docker-compose.
