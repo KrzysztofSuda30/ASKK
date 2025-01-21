@@ -79,6 +79,12 @@ docker run --rm demo
 
 7 Pokaż działanie docker compose w swoim projekcie.
 
+docker-compose up -d
+
+docker-compose ps
+
+localhost:5000
+
 8 Omów na podstawie swojej aplikacji komendy docker inspect i docker logs.
 
 9 Czym są sieci w Dockerze? Zaprezentuj przykład na bazie swojego projektu.
