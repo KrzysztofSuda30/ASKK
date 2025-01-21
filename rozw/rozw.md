@@ -26,3 +26,11 @@ Utwórz w nim plik tekstowy z dowolnymi danymi. Co zrobić, żeby po zamknięciu
 Zademonstruj dowolny sposób.
 
 12 Zbuduj wybrany przez siebie obraz, nadaj mu 'tag' i opublikuj na DockerHubie. Następnie usuń lokalnie ww. obraz i pobierz go z DockerHuba.
+
+docker build -t krzysztofsuda/flask-app:latest .
+
+docker push krzysztofsuda/flask-app:latest
+
+docker rmi krzysztofsuda/flask-app:latest
+
+docker pull krzysztofsuda/flask-app:latest
