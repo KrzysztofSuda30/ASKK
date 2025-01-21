@@ -25,6 +25,32 @@ uruchom ww. skrypt wewnątrz kontenera.
 Utwórz w nim plik tekstowy z dowolnymi danymi. Co zrobić, żeby po zamknięciu kontenera dane z pliku były dostępne po ponownym uruchomieniu kontenera?
 Zademonstruj dowolny sposób.
 
+docker run -it --name zad11 ubuntu /bin/bash
+
+ echo "plik tekstowy" >/myfile.txt
+
+ root@ba7d2638a1e8:/# cat /myfile.txt
+
+  exit
+
+  docker volume create mydata
+
+  docker rm zad11
+
+  docker run -it --name zad11 -v mydata:/data ubuntu /bin/bash
+
+   echo "zapisane" >/data/myfile.txt
+
+  exit
+
+  docker stop zad11
+
+  docker start zad11
+
+  docker exec -it zad11 /bin/bash
+
+  cat /data/myfile.txt
+
 12 Zbuduj wybrany przez siebie obraz, nadaj mu 'tag' i opublikuj na DockerHubie. Następnie usuń lokalnie ww. obraz i pobierz go z DockerHuba.
 
 docker build -t krzysztofsuda/flask-app:latest .
